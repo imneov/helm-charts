@@ -3,7 +3,7 @@ entries:
   auth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-16T17:04:46.481381+08:00"
+    created: "2022-12-01T09:40:16.317331+08:00"
     description: A Helm chart for Kubernetes
     digest: d4218bbee11caaf156f2219000664a28581c6dc4bba1f1438a244d69ad093d08
     name: auth
@@ -14,7 +14,7 @@ entries:
   core:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-16T17:04:46.492473+08:00"
+    created: "2022-12-01T09:40:16.322009+08:00"
     dependencies:
     - name: redis
       repository: ""
@@ -32,7 +32,7 @@ entries:
   keel:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-16T17:04:46.492963+08:00"
+    created: "2022-12-01T09:40:16.322351+08:00"
     description: A Helm chart for Kubernetes
     digest: f3a438e969a277329881cab93e4b98bdcd05786d42333648e73917f8c338ecd7
     name: keel
@@ -43,7 +43,7 @@ entries:
   plugins:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-16T17:04:46.493301+08:00"
+    created: "2022-12-01T09:40:16.322612+08:00"
     description: A Helm chart for Kubernetes
     digest: dacf09efa342e7e0e823ed85fd7e34fddcdaf41cd47e624b40869852d1986ad3
     name: plugins
@@ -51,10 +51,30 @@ entries:
     urls:
     - https://tkeel-io.github.io/helm-charts/plugins-0.1.0.tgz
     version: 0.1.0
+  tkeel-calc-console:
+  - annotations:
+      tkeel.io/deployment-name: tkeel-calc-console
+      tkeel.io/enable: "true"
+      tkeel.io/plugin-port: "8080"
+      tkeel.io/tag: User
+      tkeel.io/version: v0.0.1
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2022-12-01T09:40:16.322937+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b6c59e283ee76b984f641104298b6ef585e659d365a618985745fb43f01c7219
+    maintainers:
+    - email: donniean@yunify.com
+      name: donniean
+    name: tkeel-calc-console
+    type: application
+    urls:
+    - https://tkeel-io.github.io/helm-charts/tkeel-calc-console-0.0.1.tgz
+    version: 0.0.1
   tkeel-middleware:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-16T17:04:46.497712+08:00"
+    created: "2022-12-01T09:40:16.327248+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -69,7 +89,7 @@ entries:
   tkeel-plugin-components:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-16T17:04:46.497995+08:00"
+    created: "2022-12-01T09:40:16.32751+08:00"
     description: A Helm chart for Kubernetes
     digest: 1bb2cb7ae6e9653be8d6f9148141a727d92a0484ea4c44368f83e4233691be2c
     name: tkeel-plugin-components
@@ -77,4 +97,4 @@ entries:
     urls:
     - https://tkeel-io.github.io/helm-charts/tkeel-plugin-components-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-16T17:04:46.480826+08:00"
+generated: "2022-12-01T09:40:16.316712+08:00"
