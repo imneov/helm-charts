@@ -52,7 +52,7 @@ Successfully packaged chart and saved it to: /Users/iot/git/helm-chart/helm-char
 According to Helm:
 A repository is characterized primarily by the presence of a special file called index.yaml that has a list of all of the packages supplied by the repository, together with metadata that allows retrieving and verifying those packages.
 So, everything we need to create is the index.yaml file and the command to do that is:
-$ helm repo index --url https://mattiaperi.github.io/helm-chart/ .
+$ helm repo index --url https://tkeel-io.github.io/helm-charts/ .
 $ cat index.yaml
 apiVersion: v1
 entries:
